@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 6,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -47,7 +47,7 @@
       "shapes"
     ],
     "visible_layers": "ffffffff_ffffffff_fffffff5_ffffdfff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "git": {
     "repo_type": "",
@@ -55,7 +55,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "foc-motor-controller.kicad_prl",
+    "filename": "foc_terminal_ver.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

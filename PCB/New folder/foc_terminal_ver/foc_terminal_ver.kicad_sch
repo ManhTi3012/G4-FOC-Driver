@@ -10864,16 +10864,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 210.82) (xy 288.29 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "528760b7-318c-4325-8594-a51c533bc2a4")
-	)
-	(wire
-		(pts
 			(xy 341.63 128.27) (xy 349.25 128.27)
 		)
 		(stroke
@@ -12004,16 +11994,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 213.36) (xy 288.29 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d49e7f68-08f3-4eba-88e3-23acae60c82d")
-	)
-	(wire
-		(pts
 			(xy 71.12 64.77) (xy 83.82 64.77)
 		)
 		(stroke
@@ -12662,7 +12642,7 @@
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 420.37 328.93 180)
+		(at 251.46 252.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12672,7 +12652,7 @@
 		)
 		(uuid "366a91bd-c596-43dd-9851-2fd4027fbce6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 411.7 328.93 0)
+			(at 242.79 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12706,7 +12686,7 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 420.37 331.47 180)
+		(at 251.46 255.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12716,7 +12696,7 @@
 		)
 		(uuid "38a6f7b0-722f-47b6-ac8a-9907dc6e10fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 411.3976 331.47 0)
+			(at 242.4876 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13762,7 +13742,7 @@
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 389.89 328.93 180)
+		(at 220.98 252.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13772,7 +13752,7 @@
 		)
 		(uuid "b6fd9835-57fd-4011-a437-16e35813e668")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.22 328.93 0)
+			(at 212.31 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13916,7 +13896,7 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 389.89 331.47 180)
+		(at 220.98 255.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13926,7 +13906,7 @@
 		)
 		(uuid "e0a8fde5-59d9-4a8e-a984-057895dc1f5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 380.9176 331.47 0)
+			(at 212.0076 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17774,72 +17754,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 281.94 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41898c9e-24a9-4b99-99db-b50743328ea6")
-		(property "Reference" "#PWR080"
-			(at 281.94 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 281.94 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 281.94 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25a78d9e-0fe6-444e-a028-75370e011819")
-		)
-		(instances
-			(project "foc-motor-controller"
-				(path "/3469d8a7-3650-424a-af5f-6d06fb99e092"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 30.48 53.34 180)
 		(unit 1)
@@ -21324,73 +21238,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDC")
-		(at 281.94 210.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87e9cbf2-5b61-41db-99c1-c80fd3e1b39f")
-		(property "Reference" "#PWR079"
-			(at 281.94 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDC"
-			(at 283.464 206.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 281.94 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c56527b5-b04f-463b-ad23-81fb223196d9")
-		)
-		(instances
-			(project "foc-motor-controller"
-				(path "/3469d8a7-3650-424a-af5f-6d06fb99e092"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 83.82 71.12 0)
 		(mirror x)
@@ -22332,16 +22179,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 425.45 331.47 0)
+		(at 256.54 255.27 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "9a61c4b3-f29e-4299-ae80-95dd3ab92086")
 		(property "Reference" "J7"
-			(at 427.99 331.4701 0)
+			(at 259.08 255.2701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22350,7 +22197,7 @@
 			)
 		)
 		(property "Value" "CAN_IN"
-			(at 427.99 328.9301 0)
+			(at 259.08 252.7301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22359,7 +22206,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
-			(at 425.45 331.47 0)
+			(at 256.54 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22368,7 +22215,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 425.45 331.47 0)
+			(at 256.54 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22377,7 +22224,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 425.45 331.47 0)
+			(at 256.54 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22730,16 +22577,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 394.97 331.47 0)
+		(at 226.06 255.27 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "a1171aaf-3b00-4080-bd79-a34e77781831")
 		(property "Reference" "J6"
-			(at 397.51 331.4701 0)
+			(at 228.6 255.2701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22748,7 +22595,7 @@
 			)
 		)
 		(property "Value" "CAN_OUT"
-			(at 397.51 328.9301 0)
+			(at 228.6 252.7301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22757,7 +22604,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
-			(at 394.97 331.47 0)
+			(at 226.06 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22766,7 +22613,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 331.47 0)
+			(at 226.06 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22775,7 +22622,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 394.97 331.47 0)
+			(at 226.06 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23073,16 +22920,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 389.89 326.39 270)
+		(at 220.98 250.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a452c66c-7397-4d85-84bf-8c026557787f")
 		(property "Reference" "#PWR033"
-			(at 383.54 326.39 0)
+			(at 214.63 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23091,7 +22938,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 386.08 326.3899 90)
+			(at 217.17 250.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23100,7 +22947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 389.89 326.39 0)
+			(at 220.98 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23109,7 +22956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 389.89 326.39 0)
+			(at 220.98 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23118,7 +22965,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 389.89 326.39 0)
+			(at 220.98 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26147,16 +25994,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 420.37 326.39 270)
+		(at 251.46 250.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9729a76-b345-450e-ab17-b3562d7b7ed6")
 		(property "Reference" "#PWR024"
-			(at 414.02 326.39 0)
+			(at 245.11 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26165,7 +26012,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 416.56 326.3899 90)
+			(at 247.65 250.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26174,7 +26021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 420.37 326.39 0)
+			(at 251.46 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26183,7 +26030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 420.37 326.39 0)
+			(at 251.46 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26192,7 +26039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 420.37 326.39 0)
+			(at 251.46 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27150,221 +26997,6 @@
 			(project ""
 				(path "/3469d8a7-3650-424a-af5f-6d06fb99e092"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XT30PW_2_2_-M.G.B:XT30PW_2_2_-M.G.B")
-		(at 300.99 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f885f20a-3787-4c6f-b799-a51ab2a1cf51")
-		(property "Reference" "J4"
-			(at 300.99 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT30PW_2_2_-M.G.B"
-			(at 300.99 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT30PW_2_2_-M.G.B:AMASS_XT30PW_2_2_-M.G.B"
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "AMASS"
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5.2mm"
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" "ANA"
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW(2+2)-M.G.B/AMASS/view-part/?ref=eda"
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "NA"
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW(2+2)-M.G.B/AMASS/view-part/?ref=snap"
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "XT30PW(2+2)-M.G.B"
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Industrial Control Plug"
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "AMASS"
-			(at 300.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "S1"
-			(uuid "ee2379c4-b688-4a9f-ae0c-aac4ebbd9879")
-		)
-		(pin "N"
-			(uuid "8f41b3b1-96b5-401f-aae0-0093a594ca43")
-		)
-		(pin "S2"
-			(uuid "b8a772db-c0e3-4c2f-85ee-9c641cdedfa2")
-		)
-		(pin "P"
-			(uuid "a19b6c28-533d-4bf9-8bf6-1df703096bc0")
-		)
-		(instances
-			(project "foc-motor-controller"
-				(path "/3469d8a7-3650-424a-af5f-6d06fb99e092"
-					(reference "J4")
 					(unit 1)
 				)
 			)

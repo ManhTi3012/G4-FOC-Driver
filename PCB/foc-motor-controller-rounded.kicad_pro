@@ -58,28 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "drill_out_of_range|130089478|117950000|98cc2c2f-4fac-4dd1-9584-01542df52335|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|130089478|119450000|c42564a3-af50-4696-b070-d3868e102172|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|130589478|118700000|bfbe87b9-5c3f-4d47-8f40-c5f1951679d0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|131089478|117950000|2f8d65ae-3fe2-4b99-8ab7-e90df2579465|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|131089478|119450000|ed4667c2-9d3a-4073-96e8-83fde49f2ba1|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -89,7 +68,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -498,7 +477,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "foc-motor-controller.kicad_pro",
+    "filename": "foc-motor-controller-rounded.kicad_pro",
     "version": 3
   },
   "net_settings": {

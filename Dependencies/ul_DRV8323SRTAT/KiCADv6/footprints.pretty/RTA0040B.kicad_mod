@@ -647,17 +647,6 @@
 		(uuid "16582ea7-4b95-4b34-a879-5cf863828d12")
 	)
 	(embedded_fonts no)
-	(model "D:/projects/foc-motor-controller/Dependencies/DRV8323SRTAT/DRV8323SRTAT.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 -0 -0)
-		)
-	)
 	(model "D:/projects/foc-motor-controller/Dependencies/ul_DRV8323SRTAT/RTA0040B.stp"
 		(offset
 			(xyz 0 0 0)

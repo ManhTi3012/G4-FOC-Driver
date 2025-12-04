@@ -1,2 +1,2 @@
-# foc-motor-controller
+# G4-FOC-Driver
 

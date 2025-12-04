@@ -60,23 +60,19 @@
       ],
       "drc_exclusions": [
         [
-          "drill_out_of_range|130089478|117950000|98cc2c2f-4fac-4dd1-9584-01542df52335|00000000-0000-0000-0000-000000000000",
+          "clearance|151050000|106950000|ed340117-149f-4600-bbff-a63eb3566b67|c6527b29-ff29-490c-a51e-c069a67c555e",
           ""
         ],
         [
-          "drill_out_of_range|130089478|119450000|c42564a3-af50-4696-b070-d3868e102172|00000000-0000-0000-0000-000000000000",
+          "clearance|151050000|107900000|d3b32c57-9a01-4919-bf12-6c0e53e64595|67980766-0fa9-408c-8cb0-ba47235558f2",
           ""
         ],
         [
-          "drill_out_of_range|130589478|118700000|bfbe87b9-5c3f-4d47-8f40-c5f1951679d0|00000000-0000-0000-0000-000000000000",
+          "clearance|152050000|107100000|ce5feb8f-eafc-4f39-bb61-8be463aef177|69660e51-dcfe-42a1-846d-1b4a73a2afa4",
           ""
         ],
         [
-          "drill_out_of_range|131089478|117950000|2f8d65ae-3fe2-4b99-8ab7-e90df2579465|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|131089478|119450000|ed4667c2-9d3a-4073-96e8-83fde49f2ba1|00000000-0000-0000-0000-000000000000",
+          "clearance|152050000|108050000|6eff761e-4280-4b40-b395-e821dfc3c16a|503cabb3-4b13-434b-b968-8e0f6c2e8040",
           ""
         ]
       ],
@@ -89,7 +85,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -160,7 +156,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [

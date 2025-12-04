@@ -1,32 +1,31 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# === STM32CubeIDE Specific ===
+.settings/
+*.launch
+*.ioproject
+*.mxproject
+.project
+.cproject
+# === Build output ===
+Debug/
+Release/
+build/
 *.o
-*.obj
+*.elf
+*.bin
+*.hex
+*.map
 
-# Precompiled Headers
-*.gch
-*.pch
+# === Backup / temp files ===
+*.bak
+*.tmp
+*.log
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# === OS Specific ===
+.DS_Store
+Thumbs.db
+*.xlsx
+*.zip
+*.csv
+# === Kicad Specific ===
+no_outline/
+production/

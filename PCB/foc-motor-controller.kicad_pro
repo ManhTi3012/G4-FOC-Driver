@@ -535,7 +535,7 @@
       "specctra_dsn": "",
       "step": "foc-motor-controller.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "foc-motor-controller.wrl"
     },
     "page_layout_descr_file": ""
   },

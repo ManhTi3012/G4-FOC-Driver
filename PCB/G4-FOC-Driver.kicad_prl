@@ -55,7 +55,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "foc-motor-controller.kicad_prl",
+    "filename": "G4-FOC-Driver.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

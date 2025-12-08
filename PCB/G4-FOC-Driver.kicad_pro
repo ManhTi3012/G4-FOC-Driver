@@ -494,7 +494,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "foc-motor-controller.kicad_pro",
+    "filename": "G4-FOC-Driver.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -533,9 +533,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "foc-motor-controller.step",
+      "step": "G4-FOC-Driver.step",
       "svg": "",
-      "vrml": "foc-motor-controller.wrl"
+      "vrml": "G4-FOC-Driver.wrl"
     },
     "page_layout_descr_file": ""
   },

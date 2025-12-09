@@ -15358,7 +15358,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DON50N04"
+		(property "Value" "NMOS-8PINS"
 			(at 382.778 54.864 0)
 			(effects
 				(font
@@ -16269,7 +16269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DON50N04"
+		(property "Value" "NMOS-8PINS"
 			(at 385.318 82.55 0)
 			(effects
 				(font
@@ -18984,7 +18984,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DON50N04"
+		(property "Value" "NMOS-8PINS"
 			(at 365.252 74.422 0)
 			(effects
 				(font
@@ -19500,7 +19500,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DON50N04"
+		(property "Value" "NMOS-8PINS"
 			(at 383.54 43.434 0)
 			(effects
 				(font
@@ -22900,7 +22900,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DON50N04"
+		(property "Value" "NMOS-8PINS"
 			(at 366.014 63.754 0)
 			(effects
 				(font

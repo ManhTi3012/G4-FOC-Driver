@@ -16588,7 +16588,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "47nF"
 			(at 74.93 93.9799 0)
 			(effects
 				(font
@@ -21769,7 +21769,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "47nF"
 			(at 87.63 97.7899 0)
 			(effects
 				(font
@@ -22563,7 +22563,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "10K"
 			(at 86.36 90.17 90)
 			(effects
 				(font

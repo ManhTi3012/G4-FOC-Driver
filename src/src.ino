@@ -1,8 +1,9 @@
 #include <SimpleFOC.h>
 #include "MagneticSensorMT6826.h"
-
+#include "StatusLED.h"
 // ===== Sensor =====
 MagneticSensorMT6826 sensor(PA3);
+StatusLED statusLED(PB14, PB12);
 
 // ===== Serial =====
 HardwareSerial Serial3(USART3);
@@ -35,6 +36,7 @@ void setup() {
   sensor.init();
   motor.linkSensor(&sensor);
   Serial3.println("MT6826 ready");
+  statusLED.begin();
 
   // ---- Driver ----
   driver.voltage_power_supply = 24.0f;
@@ -52,12 +54,12 @@ void setup() {
   motor.torque_controller = TorqueControlType::voltage;
   motor.controller = MotionControlType::angle;
 
-  motor.voltage_limit = 12.0f;
-  motor.voltage_sensor_align = 2.0f;
+  motor.voltage_limit = 24.0f;
+  motor.voltage_sensor_align = 3.0f;
 
   // optional helpers
-  motor.P_angle.P = 10.0;
-  motor.P_angle.I = 0.0;
+  motor.P_angle.P = 2.0;
+  motor.P_angle.I = 0.1;
   motor.P_angle.D = 0.0;
   motor.PID_velocity.P = 0.3f;
   motor.PID_velocity.I = 2.0f;
@@ -80,10 +82,15 @@ void setup() {
 }
 
 void loop() {
-  if(timer - millis() > 2000){
+  if(millis() - timer > 2000){
     motor.target *= -1.0f;
+    timer = millis();
   }
   motor.loopFOC();
   motor.move();
   command.run();
+  statusLED.update();
+
+  // sensor.update();
+  // Serial3.println(sensor.getAngle());
 }
